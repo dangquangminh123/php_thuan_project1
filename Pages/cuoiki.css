@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+}
+.header{
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid #ff80ff;
+    height: 180px;
+    width: 100%;
+}
+.menu{
+    border: 1px solid #1aff8c;
+    height: 120px;
+    width: 100%;
+    background: #00e6e6;
+}
+ul.list_menu{
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: 60%;
+    border: 1px solid;
+    line-height: 27px;
+}
+ul.list_menu li {
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #ff0000;
+}
+ul.list_menu li:hover {
+    background: burlywood;
+}
+
+
+#main{
+    border: 1px solid #00ff80;
+    height: 600px;
+    width: 100%;
+}
+.sidebar {
+    border: 1px solid #000066;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+ul.list_sidebar{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    border: 1px solid;
+    line-height: 27px;
+}
+table.bang tr td {
+        padding: 5px;
+    }
+ul.list_sidebar li {
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: #ff0000;
+    display: block;
+}
+ul.list_sidebar li:hover {
+    background: rgb(35, 235, 9);
+}
+.maincontent{
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li {
+    width: 19%;
+    border: 1px solid #000;
+    margin: 5px;
+    float: left;
+    height: auto;
+}
+ul.product_list li a{
+    text-decoration: none;
+}
+ul.product_list li a img {
+    width: 200px;
+    height: 110px;
+}
+p.title_product{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}   
+.footer{
+    border: 1px solid #ff1a8c;
+    height: auto;
+    width: 100%;
+    background: #00cc99;
+}
+.footer img{
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: 300px;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+
+input.themgiohang{
+    border: none;
+    background: brown;
+    color:  #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
